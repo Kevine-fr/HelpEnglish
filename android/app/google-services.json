@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328912748381",
+    "project_id": "helpenglish",
+    "storage_bucket": "helpenglish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328912748381:android:9ec9577c1b59f29b89b2b4",
+        "android_client_info": {
+          "package_name": "com.example.helpenglish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD18EHVUZn3PFOdyj-r0mPpbjPw3Cpx11g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
