@@ -8,15 +8,19 @@ import 'package:helpenglish/Views/Routes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   await Firebase.initializeApp();
-  
+
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    double ResponsiveWidth(double width, BuildContext context) {
+      return 411.42* width* MediaQuery.of(context).size.width;
+    }
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Help English',
@@ -33,4 +37,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
